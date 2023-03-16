@@ -1,0 +1,59 @@
+@media (min-width:768px) {
+    /*============header==========*/
+    /*================home page==========*/
+    /*================get rather==========*/
+
+.get-flex {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+.get-flex .get-text h1 {
+    font-size: 35px;
+    padding-bottom: 25px;
+}
+
+
+/*================what we do grid==========*/
+
+.what-we-flex {
+    display: flex;
+    padding-bottom: 50px;
+    gap: 20px;
+    flex-direction: column;
+}
+/*================Our invention==========*/
+
+.our-flex {
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+}
+
+/*================gallery==========*/
+
+/*===============hero images===========*/
+
+/*===============our article===========*/
+
+/*===============dont===========*/
+
+.dont-p .dont-flex .right-text button {
+    height: 50px;
+    width: 350px;
+    margin-top: 20px;
+}
+.dont-p .dont-flex .right-text input {
+    height: 50px;
+    width: 350px;
+    margin-top: 20px;
+}
+
+/*===============footer===========*/
+
+.footer-flex .link {
+    text-align: left;
+}
+
+}
+

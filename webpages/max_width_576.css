@@ -1,0 +1,117 @@
+@media (max-width:576px){  
+
+ /*============header==========*/
+header .nav .list {
+    display: none;
+    }
+ header .nav .search {
+    display: none;
+    }
+    
+header .nav .bars button {
+    display: block;
+    }
+    
+header .nav .bars {
+    padding-left: 20px;
+    }
+
+ /*================home page==========*/
+
+.homepage .homepage-p {
+    padding: 150px 0px;
+}
+.homepage .home-content h1 {
+    color: white;
+    font-size: 40px;
+    padding-bottom: 30px;
+}
+
+/*================get rather==========*/
+   
+.get-flex {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+.get-flex .get-text h1 {
+    font-size: 35px;
+    padding-bottom: 25px;
+}
+
+/*================what we do grid==========*/
+
+.what-we-flex {
+    display: flex;
+    padding-bottom: 50px;
+    gap: 20px;
+    flex-direction: column;
+}
+
+/*================Our invention==========*/
+
+.our-flex {
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+}
+        
+/*================gallery==========*/
+
+.gallery .img-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+}
+
+/*===============hero images===========*/
+
+/*===============our article===========*/
+
+.box-1 .flex {
+    display: flex;
+    gap: 5px;
+    margin-left: 20px;
+    padding-bottom: 10px;
+}
+.our-article-p .box-1 {
+    height: auto;
+    max-width: fit-content;
+    border: 2px solid transparent;
+    margin-bottom: 00px;
+    background-color: rgba(0, 0, 0, 0.034);
+}
+/*===============dont===========*/
+
+.dont-p .dont-flex {
+    display: flex;
+    flex-wrap: wrap;
+}
+.dont-p .dont-flex .right-text {
+    display: flex;
+    flex-wrap: wrap;
+}
+.dont-p .dont-flex .right-text button {
+    height: 50px;
+    width: 250px;
+  
+}
+.dont{
+    margin-bottom: 50px;
+}
+
+/*===============footer===========*/
+
+.footer .footer-flex {
+    padding-top: 100px;
+}
+.footer-flex {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 20px;
+}
+.footer-flex .link {
+    text-align: left;
+}
+
+}
