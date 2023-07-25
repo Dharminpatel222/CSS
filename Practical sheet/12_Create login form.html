@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        .main{
+            background-color: aqua;
+            height: 100vh;
+        }
+        h1{
+            text-align: center;
+            padding-top: 150px;
+
+        }
+        .box{
+            height: 500px;
+            width: 800px;
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            margin:auto;
+            border: 2px solid black;
+        }
+        .left{
+            height: 100%;
+            width: 100%;
+            border: 2px solid black;
+            text-align: center;
+            background-color: white;
+        }
+        .right{
+            height: 100%;
+            width: 100%;
+            border: 2px solid black;
+            overflow: hidden;
+        }
+        img{
+            height: 100%;
+            width: 100%;
+         
+        }
+        h2{
+            margin-top: 50px;
+            text-shadow: 0px 0px 2px black;
+        }
+        .p1{
+            margin-top: 10px;
+            color: rgba(128, 128, 128, 0.916);
+        }
+        .head1{
+            margin-top: 30px;
+            border-radius: 50px;
+            border-color:  #00000021;;
+            height: 35px;
+            width: 230px;
+            padding-left: 30px;
+            background-color: rgba(0, 255, 255, 0.071);
+        }
+        .head2{
+            margin-top: 30px;
+            border-radius: 50px;
+            border-color:  #00000021;;
+            height: 35px;
+            width: 230px;
+            padding-left: 30px;
+            background-color: rgba(0, 255, 255, 0.071);
+        }
+        button{
+            margin-top: 30px;
+            border-radius: 50px;
+            border-color:  #00000021;;
+            height: 39px;
+            width: 270px;
+            color: white; 
+            background-color: steelblue;          
+        }
+        .p2{
+           margin-top: 30px;
+           color: rgba(128, 128, 128, 0.916); 
+        }
+        .p3{
+            margin-top: 50px;
+            color: rgba(128, 128, 128, 0.916);
+        }
+        span{
+            color: red;
+        }
+    </style>
+</head>
+<body>
+    <div class="main">
+    <h1>Login in form</h1>
+    <div class="box">
+        <div class="left">
+            <h2>Log in</h2>
+            <P class="p1">To your account</P>
+            <input type="text" placeholder="User Name" class="head1"><br>
+            <input type="text" placeholder="Password" class="head2"><br>
+            <button>Log In</button>
+            <p class="p2">Or connect with social media</p>
+            <p class="p3">Don't have an account? <span>Register</span></p>
+        </div>
+        <div class="right">
+            <img src="images.jpeg" alt="">
+        </div>
+    </div>
+</body>
+</html>

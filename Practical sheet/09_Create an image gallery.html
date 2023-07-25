@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        img{
+            height: 300px;
+            width: 400px;
+            border: 2px solid black;
+            box-shadow: 0 0 5px 3px green;
+            border-radius: 10px;
+            transition: 1s all ease;
+            
+        }
+        div{
+            display: grid;
+            grid-template-columns: auto auto auto auto;
+            gap: 30px;
+            padding-right: 80px;
+            margin-left: 40px;
+            margin-top: 40px;
+        }
+        .img1:hover{
+            transform: rotate(360deg);
+        }
+        .img2:hover{
+            transform: rotateX(180deg);
+        }
+        .img3:hover{
+            transform: scale(0.3);
+        }
+        .img4:hover{
+            transform: scaleY(0.3)
+        }
+        .img5:hover{
+            transform: skew(30deg);
+        }
+        .img6:hover{
+            transform: translateY(100px);
+        }
+        .img7:hover{
+            transform: translateX(40px);
+        }
+        .img8:hover{
+            transform: skewY(30deg);
+        }
+    </style>
+</head>
+<body>
+        <div>
+            <img class="img1" src="images 1.jpeg" alt="">
+            <img class="img2" src="images 2.jpg" alt="">
+            <img class="img3" src="images 3.jpg" alt="">
+            <img class="img4" src="images 4.jpg" alt="">
+            <img class="img5" src="images 5.jpg" alt="">
+            <img class="img6" src="images 6.jpg" alt="">
+            <img class="img7" src="images 7.jpg" alt="">
+            <img class="img8" src="images 8.jpg" alt="">
+        </div>
+</body>
+</html>
